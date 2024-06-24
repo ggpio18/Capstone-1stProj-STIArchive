@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Online thesis archiving system</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Inscriptional+Pahlavi&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/404-NOT-FOUND-animated.css">
+    <link rel="stylesheet" href="assets/css/404.css">
+    <link rel="stylesheet" href="assets/css/Clean-Button-Scale-Hover-Effect.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar-Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar-Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean-icons.css">
+    <link rel="stylesheet" href="assets/css/Header-Cover01.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+    <link rel="stylesheet" href="assets/css/Navbar-vmnt.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height: 80px;background-color: #014887;color: #ffffff;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="margin-left: 27px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone-fill">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                </svg>&nbsp;0999 885 6072</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="register_form.php"><i class="fa fa-registered"></i>&nbsp;Register</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="login_form.php"><i class="fa fa-sign-in" style="margin-right: 6px;"></i>Student/Admin Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top d-xl-flex flex-column justify-content-xl-center align-items-xl-start navigation-clean-search" style="padding: 5px;">
+        <div class="container-fluid"><img src="assets/img/download.png" width="40" height="32" style="margin-right: 15px;"><a class="navbar-brand link-dark" style="color:#eeeeee;" href="index.html">STI-PHP</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><a style="padding-left: 21px;" href="index.html">Home</a><a style="padding-right: 21px;margin-left: 20px;padding-left: 15px;" href="Project.html">Projects</a>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link link-dark" aria-expanded="true" data-bs-toggle="dropdown" href="#">Department</a>
+                        <div class="dropdown-menu show" data-bs-popper="none"><a class="dropdown-item" href="Archive%20List%20of%20College%20of%20Computer%20Studies.html">College of Computer Studies</a><a class="dropdown-item" href="Archive%20List%20of%20College%20of%20Education.html">College Of Education</a><a class="dropdown-item" href="Archive%20List%20of%20College%20of%20Engineering.html">College Of Engineering</a></div>
+                    </li>
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link link-dark" aria-expanded="true" data-bs-toggle="dropdown" href="#">Courses</a>
+                        <div class="dropdown-menu show" data-bs-popper="none"><a class="dropdown-item" href="Archive%20List%20of%20BSIT.html">BSIT</a><a class="dropdown-item" href="Archive%20List%20of%20BSCS.html">BSCS</a><a class="dropdown-item" href="Archive%20List%20of%20BSCPE.html">BSCPE</a></div>
+                    </li>
+                    <li class="nav-item"></li>
+                </ul><a style="margin-left: 22px;" href="About.html">About Us</a>
+                <form class="ms-auto" id="form" target="_self">
+                    <div class="form-group mb-3"><label class="form-label" for="search-field"></label><input class="form-control form-control-sm search-field" type="search" id="search-field" name="search-field" placeholder="Search" autocomplete="on" style="color: rgb(0,0,0);"></div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="card" style="margin-left: 143px;margin-right: 158px;margin-top: 31px;">
+        <div class="card-header" style="border-top-style: inherit;border-top-color: #014887;border-bottom-style: solid;border-bottom-color: var(--bs-black);">
+            <h5 class="display-6 mb-0" style="font-weight: bold;">Archive List</h5>
+        </div>
+        <div class="card-body border-3">
+            <div class="row">
+                <div class="col-xl-6" style="margin-right: -298px;padding-right: 428px;"><img width="436" height="195" src="assets/img/archive-3.png"></div>
+                <div class="col">
+                    <h1><strong><span style="color: rgb(0, 31, 63); background-color: rgb(248, 249, 250);">Sample Project 0</span></strong></h1>
+                    <p class="text-primary" style="margin-right: 2px;padding-right: 0px;">By: person1@sample.com</p>
+                    <p><a href="http://localhost/otas/?page=view_archive&amp;id=2"><span style="color: rgb(18, 20, 22); background-color: rgb(248, 249, 250);">In hac habitasse platea dictumst. Curabitur commodo nunc ac diam laoreet tempor. Donec sollicitudin lorem ullamcorper pretium ultrices. In varius risus in erat bibendum commodo. Ut volutpat est a mi volutpat molestie. In blandit, leo ut gravida vulputate, metus enim rutrum nunc, id mollis felis libero eu enim. Aenean placerat quis sapien sit amet blandit. Sed nec lorem efficitur, congue lorem vitae, egestas justo. Cras pulvinar, sapien vitae maximus porta, nibh</span></a><br></p><button class="btn btn-primary" type="button" style="border-radius: 48px;font-size: 26px;background: rgb(28,119,252);font-family: 'Noto Sans Inscriptional Pahlavi', sans-serif;font-weight: bold;width: 187.75px;border-width: 0px;">See more</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body border-3">
+            <div class="row">
+                <div class="col-xl-6" style="margin-right: -298px;padding-right: 428px;"><img width="436" height="195" src="assets/img/loan_management_system_in_php.png"></div>
+                <div class="col">
+                    <h1><strong><span style="color: rgb(0, 31, 63); background-color: rgb(248, 249, 250);">Sample Project 1</span></strong></h1>
+                    <p class="text-primary" style="margin-right: 2px;padding-right: 0px;">By: person1@sample.com</p>
+                    <p><a href="http://localhost/otas/?page=view_archive&amp;id=2"><span style="color: rgb(18, 20, 22); background-color: rgb(248, 249, 250);">In hac habitasse platea dictumst. Curabitur commodo nunc ac diam laoreet tempor. Donec sollicitudin lorem ullamcorper pretium ultrices. In varius risus in erat bibendum commodo. Ut volutpat est a mi volutpat molestie. In blandit, leo ut gravida vulputate, metus enim rutrum nunc, id mollis felis libero eu enim. Aenean placerat quis sapien sit amet blandit. Sed nec lorem efficitur, congue lorem vitae, egestas justo. Cras pulvinar, sapien vitae maximus porta, nibh</span></a><br></p><button class="btn btn-primary" type="button" style="border-radius: 48px;font-size: 26px;background: rgb(28,119,252);font-family: 'Noto Sans Inscriptional Pahlavi', sans-serif;font-weight: bold;width: 187.75px;border-width: 0px;">See more</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body border-3">
+            <div class="row">
+                <div class="col-xl-6" style="margin-right: -298px;padding-right: 428px;"><img width="436" height="195" src="assets/img/12.webp"></div>
+                <div class="col">
+                    <h1><strong><span style="color: rgb(0, 31, 63); background-color: rgb(248, 249, 250);">Sample Project 2</span></strong></h1>
+                    <p class="text-primary" style="margin-right: 2px;padding-right: 0px;">By: person1@sample.com</p>
+                    <p><a href="http://localhost/otas/?page=view_archive&amp;id=2"><span style="color: rgb(18, 20, 22); background-color: rgb(248, 249, 250);">In hac habitasse platea dictumst. Curabitur commodo nunc ac diam laoreet tempor. Donec sollicitudin lorem ullamcorper pretium ultrices. In varius risus in erat bibendum commodo. Ut volutpat est a mi volutpat molestie. In blandit, leo ut gravida vulputate, metus enim rutrum nunc, id mollis felis libero eu enim. Aenean placerat quis sapien sit amet blandit. Sed nec lorem efficitur, congue lorem vitae, egestas justo. Cras pulvinar, sapien vitae maximus porta, nibh</span></a><br></p><button class="btn btn-primary" type="button" style="border-radius: 48px;font-size: 26px;background: rgb(28,119,252);font-family: 'Noto Sans Inscriptional Pahlavi', sans-serif;font-weight: bold;width: 187.75px;border-width: 0px;">See more</button>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 36px;">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col" style="text-align: right;">
+                                            <div class="btn-group btn-group-toggle" data-bs-toggle="buttons"><label class="form-label btn btn-outline-primary active">Next<input type="radio" id="btnradio1" name="btnradio"></label><label class="form-label btn btn-outline-primary">Return<input type="radio" id="btnradio-2" name="btnradio"></label></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center d-flex flex-column align-items-start justify-content-xxl-end align-items-xxl-center py-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <p class="text-muted d-xxl-flex justify-content-xxl-start my-2" style="text-align: left;font-weight: bold;">Copyright&nbsp;© 2023. All rights reserved</p>
+                </div>
+                <div class="col" style="padding-left: 11px;margin-right: -64px;margin-left: 40px;">
+                    <ul class="list-inline my-2">
+                        <li class="list-inline-item me-4"></li>
+                        <li class="list-inline-item me-4"></li>
+                        <li class="list-inline-item"></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-inline d-xxl-flex justify-content-xxl-end my-2" style="text-align: right;">
+                        <li class="list-inline-item" style="text-align: right;"><a class="link-secondary" href="#" style="font-weight: bold;">STI-PHP</a></li>
+                        <li class="list-inline-item"><a class="link-secondary" href="#" style="text-align: right;font-weight: bold;">{by: Thesis Group} v1.0</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/404.js"></script>
+    <script src="assets/js/Navbar-vmnt-1.js"></script>
+    <script src="assets/js/Navbar-vmnt-2.js"></script>
+    <script src="assets/js/Navbar-vmnt-3.js"></script>
+    <script src="assets/js/Navbar-vmnt.js"></script>
+</body>
+
+</html>
